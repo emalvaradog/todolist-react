@@ -1,0 +1,73 @@
+.TodoItem {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.4rem;
+  /* border: 1px solid black; */
+  border-radius: 6px;
+  font-size: 1.3rem;
+  background-color: rgb(235, 235, 235);
+}
+
+.TodoItem-p {
+  width: calc(100% - 12rem);
+  margin: 2.4rem 0 2.4rem 2.4rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  color: rgb(26, 26, 26);
+}
+
+.TodoItem-p--complete {
+  text-decoration: line-through;
+  color: rgb(155, 155, 155);
+}
+
+.Icon {
+  font-size: 1.8rem;
+  font-weight: bold;
+  width: 4.8rem;
+  height: 4.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Icon-check--active {
+  color: rgb(7, 150, 7);
+}
+
+.fas {
+  cursor: pointer;
+}
+
+.fa-check:hover {
+  color: rgb(7, 150, 7);
+}
+
+.fa-times:hover {
+  color: rgb(188, 0, 0);
+}
+
+.fa-flag {
+  color: rgb(190, 190, 190);
+}
+
+.Prior--completed {
+  color: rgb(190, 190, 190);
+  cursor: default;
+}
+
+.Prior-1 {
+  color: rgb(87, 148, 228);
+}
+
+.Prior-2 {
+  color: rgb(231, 207, 67);
+}
+
+.Prior-3 {
+  color: rgb(231, 93, 93);
+}

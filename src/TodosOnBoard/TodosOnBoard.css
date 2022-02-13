@@ -1,0 +1,25 @@
+.onBoardTodos {
+  display: flex;
+  background: rgba(0, 0, 0, 0.575);
+  position: fixed;
+  top: -10px;
+  bottom: -10px;
+  left: -10px;
+  right: -10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.onBoardTodos img {
+  width: 25rem;
+  margin-bottom: 4rem;
+}
+
+.onBoardTodos p {
+  margin-bottom: 0.4rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.7rem;
+}

@@ -1,0 +1,19 @@
+.errorTodos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem 10rem 0;
+}
+
+.errorTodos img {
+  width: 25rem;
+  margin-bottom: 4rem;
+}
+
+.errorTodos p {
+  margin-bottom: 0.4rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.7rem;
+}

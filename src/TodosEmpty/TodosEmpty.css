@@ -1,0 +1,20 @@
+.emptyTodos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10rem 5rem 0;
+}
+
+.emptyTodos img {
+  width: 20rem;
+  margin-bottom: 8rem;
+}
+
+.emptyTodos p {
+  margin-bottom: 0.6rem;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.6rem;
+}

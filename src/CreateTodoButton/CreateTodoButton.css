@@ -3,6 +3,9 @@
   border: none;
   border-radius: 50%;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
   position: fixed;
   bottom: 2.4rem;

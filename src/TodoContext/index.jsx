@@ -22,14 +22,8 @@ function TodoProvider(props) {
 
   // - TodoList Filter
   const filteredTodos = todos
-    .sort((a, b) => {
-      if (a.priority > b.priority) {
-        return -1;
-      } else if (a.priority < b.priority) {
-        return 1;
-      }
-      return 0;
-    })
+    .sort((a, b) => b.priority - a.priority)
+    .sort((a, b) => a.isCompleted - b.isCompleted)
     .filter((todos) => {
       return todos.text.toLowerCase().includes(searchValue.toLowerCase());
     });

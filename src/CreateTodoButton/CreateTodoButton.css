@@ -2,6 +2,7 @@
   background-color: rgb(124, 77, 179);
   border: none;
   border-radius: 50%;
+  text-align: center;
   cursor: pointer;
   position: fixed;
   bottom: 2.4rem;
